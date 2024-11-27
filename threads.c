@@ -6,7 +6,7 @@ void *printHello(void *arg){
     printf("Hola desde el hilo %d\n", hid);
     pthread_exit(NULL);
 }
-
+ 
 int main(){
     int NUM_THREADS = 20;
     pthread_t threadStatus[NUM_THREADS];
